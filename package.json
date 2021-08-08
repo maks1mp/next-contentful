@@ -6,15 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "codegen": "contentful-typescript-codegen --output contentful-types.d.ts"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.1.0",
+    "bootstrap": "^5.1.0",
+    "contentful": "^8.4.2",
+    "contentful-management": "^7.31.0",
+    "dotenv": "^10.0.0",
     "next": "11.0.1",
+    "prettier": "^2.3.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "reactstrap": "^8.9.0",
+    "reset-css": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "17.0.16",
+    "contentful-typescript-codegen": "^3.2.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.0.1",
     "typescript": "4.3.5"
